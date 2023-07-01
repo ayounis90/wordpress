@@ -1,0 +1,7 @@
+---
+#---------------------------------------------------------------------------------------------
+# base_setup.yml sets up the base linux server to be ready for a front-end wordpress server.
+#---------------------------------------------------------------------------------------------
+
+# Configure base set of packages
+- { role: ../roles/standard_packages }

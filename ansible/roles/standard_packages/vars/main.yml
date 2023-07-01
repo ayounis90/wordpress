@@ -1,0 +1,3 @@
+standard_packages:
+- git
+- httpd

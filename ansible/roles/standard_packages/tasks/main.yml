@@ -1,0 +1,7 @@
+---
+
+- name: Install standard yum/dnf packages
+  yum:
+    name: "{{ standard_packages }}"
+    skip_broken: yes
+    state: latest
